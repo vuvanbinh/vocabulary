@@ -63,20 +63,43 @@ const months = [
     new Vocabulary("December (dəˈsembər)","Tháng mười hai")
 ]
 
-
+const kindOfPlaces =[
+    new Vocabulary("a square (skwer)","Quảng trường"),
+    new Vocabulary("a bus station (steiʃn)","Điểm xe bus"),
+    new Vocabulary("a beach (bi:tʃ)","Bờ biển"),
+    new Vocabulary("an airport (airport)","Sân bay"),
+    new Vocabulary("a bar (bɑ:)","Quầy bar"),
+    new Vocabulary("a house (haus)","Nhà"),
+    new Vocabulary("a park (pɑ:k)","Công viên"),
+    new Vocabulary("a market (Market)","Chợ"),
+    new Vocabulary("a station (steiʃn)","Nhà ga"),
+    new Vocabulary("a lake (leik)","Hồ nước"),
+    new Vocabulary("the sea (si:)","Biển"),
+    new Vocabulary("a river ('rivə)","Dòng sông"),
+    new Vocabulary("a museum (mju:'ziəm)","Bảo tàng"),
+    new Vocabulary("mountains (mauntin)","Núi non"),
+    new Vocabulary("a road (roud)","Con đường"),
+    new Vocabulary("a cafe (kæfei)","Quán cà phê"),
+    new Vocabulary("a shop (ʃɔp)","Cửa hàng"),
+    new Vocabulary("a flat [an apartment] (ə'pɑ:tmənt)","Căn hộ"),
+    new Vocabulary("a hotel (hou'tel)","hách sạn"),
+    new Vocabulary("a bed and breakfast (brekfəst)","Ăn dưỡng"),
+]
 
 const listTypesVocalName = [
     new VocabType("foods", "Foods"),
     new VocabType("frequencies", "Frequencies"),
     new VocabType("positions", "Positions"),
-    new VocabType("months","Months")
+    new VocabType("months","Months"),
+    new VocabType("kindOfPlaces","Kind Of Places")
 ]
 
 const data = {
     foods: foods,
     frequencies: frequencies,
     positions: positions,
-    months: months
+    months: months,
+    kindOfPlaces: kindOfPlaces
 }
 
 export { data, listTypesVocalName, positions, months }
