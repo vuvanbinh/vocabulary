@@ -86,12 +86,41 @@ const kindOfPlaces =[
     new Vocabulary("a bed and breakfast (brekfəst)","Ăn dưỡng"),
 ]
 
+const rentingFlats = [
+    new Vocabulary("furniture (fə:nitʃə)","Nội thất"),
+    new Vocabulary("a double bed ()","Giường đôi"),
+    new Vocabulary("a single bed ()","giường đơn"),
+    new Vocabulary("a fridge (fridʤ)","Tủ lạnh"),
+    new Vocabulary("refrigerator (ri'fridʤəreitə)","Lạnh tủ"),
+    new Vocabulary("a coffee table ()","Bàn cà phê"),
+    new Vocabulary("a bath (bɑ:θ)","Bồn tắm"),
+    new Vocabulary("a chair (tʃeə)","Ghế"),
+    new Vocabulary("a shower (ʃouə)","Vòi hoa sen"),
+    new Vocabulary("a cooker (kukə)","Nồi cơm"),
+    new Vocabulary("a toilet (tɔilit)","Bồn cầu"),
+    new Vocabulary("a sink (siɳk)","Bồn rửa mặt"),
+    new Vocabulary("an armchair (ɑ:m'tʃeə)","Ghế có để tay"),
+    new Vocabulary("a desk (desk)","Bàn"),
+    new Vocabulary("a plant (plɑ:nt)","Cây"),
+    new Vocabulary("a sofa (soufə)","Ghế sofa"),
+    new Vocabulary("a washing machine (mə'ʃi:n)","Máy giặt"),
+    new Vocabulary("a washbasin ()","Bồn rửa mặt"),
+    new Vocabulary("a table (teibl)","Bàn"),
+    new Vocabulary("Lamp (læmp)","Bóng đèn"),
+    new Vocabulary("Fan (fæn)","Quạt"),
+    new Vocabulary("Air conditioner (kən'diʃnə)","Điều hòa"),
+    new Vocabulary("Ceiling (si:liɳ)","Trần nhà"),
+    new Vocabulary("Pan (pan)","Chảo"),
+    new Vocabulary("Pot (pot)","Nồi chảo"),
+]
+
 const listTypesVocalName = [
     new VocabType("foods", "Foods"),
     new VocabType("frequencies", "Frequencies"),
     new VocabType("positions", "Positions"),
     new VocabType("months","Months"),
-    new VocabType("kindOfPlaces","Kind Of Places")
+    new VocabType("kindOfPlaces","Kind Of Places"),
+    new VocabType("rentingFlats","Renting a flat")
 ]
 
 const data = {
@@ -99,7 +128,8 @@ const data = {
     frequencies: frequencies,
     positions: positions,
     months: months,
-    kindOfPlaces: kindOfPlaces
+    kindOfPlaces: kindOfPlaces,
+    rentingFlats: rentingFlats
 }
 
-export { data, listTypesVocalName, positions, months }
+export { data, listTypesVocalName, positions, months, rentingFlats}
